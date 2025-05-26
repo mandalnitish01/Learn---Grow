@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!----CSS-->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    
+
+
+
+    <style>
+      body{
+        background-image: url("./images/bg-texture.png");
+      }
+    </style>
+    
+    <title>Learn & Grow</title>
+
+    <!----icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a5afd6b58b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+<!----Swiper JS---->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+
+    <!----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body >
+    <!=================== NavBar ===============!>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html"><h4>LEARN & GROW</h4></a>
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="notes.html">Notes || PYQP</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="login_signup_nav"><a href="#login" onclick="signIn()">LogIn/Sign Up</a></li>
+          
+        
+        </ul>
+        <button id="open-menu-button"><i class="ri-menu-line"></i></button>
+        <button id="close-menu-button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </nav>
+    <!================== End of NavBAr============!>
+
+
+
+
+    <!================== HEADER============!>
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <h1>
+            Grow your Skill <span>Learn With Science Coching Center</span>
+          </h1>
+          <p>The Ultimate Guide कक्षा 𝟏 से कक्षा 𝟏𝟐𝐭𝐡 तक</p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header_right">
+          <div class="header_right-image">
+            <img src="./images/header.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!================== End of HEADER============!>
+
+    <!================== CATEGORIES ============!>
+    <section class="categories">
+      <div class="container categories_container">
+        <div class="categories-left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+            dolore aliquid quam fugit cupiditate laborum ex error facere sit
+            ducimus eum asperiores, quo dolorem provident, ut animi. Quae,
+            tenetur veritatis?
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="categories_right">
+          <article class="category">
+            <span class="category_icon"
+              ><img class="baby-image" src="./images/1-5.png" alt=""
+            /></span>
+            <h5>Class (कक्षा) 1 to 5</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Be</p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><img class="adult-image" src="./images/5-10.png" alt=""
+            /></span>
+            <h5>Class (कक्षा) 5 to 10</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Be</p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><img class="adult-image" src="./images/5-10.png" alt=""
+            /></span>
+            <h5>Class (कक्षा) 1 to 5</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Be</p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><img class="young-image" src="./images/10-12.png" alt=""
+            /></span>
+            <h5>Class (कक्षा) 10 to 12th Arts</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Be</p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><img class="young-image" src="./images/10-12.png" alt=""
+            /></span>
+            <h5>Class (कक्षा) 10 to 12th Commerce</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Be</p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><img class="young-image" src="./images/10-12.png" alt=""
+            /></span>
+            <h5>Class (कक्षा) 10 to 12th Science</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Be</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!================== End of HEADER============!>
+
+    <!================== POPULAR COURCES ============!>
+
+    <section class="course">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses_container">
+        <article class="courses">
+          <div class="course_image">
+            <img src="./images/course1.png" alt="course1" />
+          </div>
+          <div class="course_info">
+            <h4>We Teach Class 10th Student</h4>
+            <p>
+              We teach Class 10th All subject at one place in Affordable fees
+              with our Highly Quilfied Teacher
+            </p>
+            <a href="./courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="courses">
+          <div class="course_image">
+            <img  class="courses2" src="./images/course2.png" alt="course2" />
+          </div>
+          <div class="course_info">
+            <h4>We Teach Class 11th Student</h4>
+            <p>
+              We teach Class 11th All subject at one place in Affordable fees
+              with our Highly Quilfied Teacher
+            </p>
+            <a href="./courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="courses">
+          <div class="course_image">
+            <img src="./images/course3.png" alt="course3" />
+          </div>
+          <div class="course_info">
+            <h4>We Teach Class 12th Student</h4>
+            <p>
+              We teach Class 11th All subject at one place in Affordable fees
+              with our Highly Quilfied Teacher
+            </p>
+            <a href="./courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!================== END OF POPULAR COURCES ============!>
+
+
+    <!================== FREQUENTLY ASKED QUESTION ============!>
+
+    <section class="faqs">
+      <h2>Frequently Asked Question</h2>
+      <div class="container faqs_container">
+        <article class="faq">
+          <div class="faq_icon"><i class="ri-add-fill"></i></div>
+          <div class="question_answer">
+            <h4>How Do i Know The Right Course for me</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a rerum sint praesentium deleniti porro laboriosam, fugiat voluptate illo perspiciatis libero voluptatibus quibusdam expedita iusto, harum tempora possimus, in velit.</p>
+          </div>                
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="ri-add-fill"></i></div>
+          <div class="question_answer">
+            <h4>How Do i Know The Right Course for me</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a rerum sint praesentium deleniti porro laboriosam, fugiat voluptate illo perspiciatis libero voluptatibus quibusdam expedita iusto, harum tempora possimus, in velit.</p>
+          </div>                
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="ri-add-fill"></i></div>
+          <div class="question_answer">
+            <h4>How Do i Know The Right Course for me</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a rerum sint praesentium deleniti porro laboriosam, fugiat voluptate illo perspiciatis libero voluptatibus quibusdam expedita iusto, harum tempora possimus, in velit.</p>
+          </div>                
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="ri-add-fill"></i></div>
+          <div class="question_answer">
+            <h4>How Do i Know The Right Course for me</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a rerum sint praesentium deleniti porro laboriosam, fugiat voluptate illo perspiciatis libero voluptatibus quibusdam expedita iusto, harum tempora possimus, in velit.</p>
+          </div>                
+        </article>
+
+
+        <article class="faq">
+          <div class="faq_icon"><i class="ri-add-fill"></i></div>
+          <div class="question_answer">
+            <h4>How Do i Know The Right Course for me</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a rerum sint praesentium deleniti porro laboriosam, fugiat voluptate illo perspiciatis libero voluptatibus quibusdam expedita iusto, harum tempora possimus, in velit.</p>
+          </div>                
+        </article>
+
+
+        <article class="faq">
+          <div class="faq_icon"><i class="ri-add-fill"></i></div>
+          <div class="question_answer">
+            <h4>How Do i Know The Right Course for me</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a rerum sint praesentium deleniti porro laboriosam, fugiat voluptate illo perspiciatis libero voluptatibus quibusdam expedita iusto, harum tempora possimus, in velit.</p>
+          </div>                
+        </article>
+        </div>
+        </section>
+
+    <!================== END OF FREQUENTLY ASKED QUESTION ============!>
+
+
+
+
+    <!================== STUDENT TESTIMONIALS ============!>
+    <section class="container testimonials_container swiper mySwiper">
+      <h2>Students' Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" alt="avatar1">
+          </div>
+          <div class="testimonial_info">
+            <h5>Nitish</h5>
+            <small>Student Class 12th</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quae quasi distinctio rerum rem nisi dicta voluptatum officia animi quidem.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar.jpg" alt="avatar">
+          </div>
+          <div class="testimonial_info">
+            <h5>Subham</h5>
+            <small>Student class 12th</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quae quasi distinctio rerum rem nisi dicta voluptatum officia animi quidem.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar3.jpg" alt="avatar3">
+          </div>
+          <div class="testimonial_info">
+            <h5>Ajay</h5>
+            <small>Student 10th</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quae quasi distinctio rerum rem nisi dicta voluptatum officia animi quidem.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar4.jpg" alt="avatar4">
+          </div>
+          <div class="testimonial_info">
+            <h5>soni</h5>
+            <small>Student class 10th</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quae quasi distinctio rerum rem nisi dicta voluptatum officia animi quidem.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar5.jpg" alt="avatar5">
+          </div>
+          <div class="testimonial_info">
+            <h5>Swati</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quae quasi distinctio rerum rem nisi dicta voluptatum officia animi quidem.
+            </p>
+          </div>
+        </article>
+
+      </div>
+      <div class="swiper-1">
+      <div class="swiper-pagination "></div>
+    </div>
+    </section>
+
+    <!================== END OF STUDENT TESTIMONIALS ============!>
+
+   
+    
+    <!================== Footer ============!>
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer-1">
+          <a href="index.html" class="footer_logo"><h4>Science Choching</h4></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, asperiores?</p>
+        </div>
+
+        <div class="footer_2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+
+        <div class="footer_3">
+          <h4>Primacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term And Condition</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_4">
+          <h4>Developer</h4>
+          <div>
+            <p>+91 120-1800-188</p>
+            <p>support@gmail.com</p>
+          </div>
+
+          <ul class="footer_socials">
+            <li>
+              <a href="#"><i class="ri-facebook-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-invision-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-github-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_copyright">
+        <small>Copyright &copy;science You tube tutorial </small>
+      </div>
+
+      </div>
+    </footer>
+    <!================== END OF Footer ============!>
+    
+   
+
+
+    <!----Js----->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+
+    <!----Js SLIDER----->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },  
+        // when windows width is >= 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2
+          }
+        }
+      });
+
+
+
+
+      //  for hide google auth Token for Sequirty
+
+
+
+      let parmas = {}
+  
+  
+  let regex ="/([^&=]+)=([^&]*)/g",m
+  
+  
+  while (m = regex.exec(location.href)) {
+    parmas[decodeURIComponent(m[1])] = decodeURIComponent(m[2])
+    
+  }
+  
+  if (Object.keys(parmas).length > 0){
+    localStorage.setItem('authinfo',JSON.stringify(parmas))
+  }
+  
+  
+  // hide the Access token
+  window.history.pushState({},document.title,"/" + "index.html")
+
+ 
+  
+  
+  let info = JSON.parse(localStorage.getItem('authInfo'))
+  console.log(JSON.parse(localStorage.getItem('authInfo')))
+  console.log(info['access_token'])
+  console.log(info['expires_in'])
+
+  fetch("https://www.googleapis.com/oauth2/v3/userinfo",{
+    headers:{
+      "Authorization" : `Bearer $ {info['access_token']}`
+    }
+  })
+
+  .then((data) => data.json())
+  .then((info) => {
+    console.log(info)
+  })
+  
+        function logout(){
+  
+          fetch("https://oauth2.googleapis.com/revoke?token=" + info['access_token'],{
+            method:'POST',
+            headers:{
+              'Content-type':'application/x-www-form-urlencoded'
+            }
+          })
+
+          .then((data) => {
+            location.href="notes.html"
+          })
+        }
+
+
+
+    </script>
+<!----Js SLIDER End----->
+
+
+
+
+
+
+  
+
+  </body>
+</html>
