@@ -5,7 +5,7 @@ window.addEventListener("scroll", () => {
     .classList.toggle("window-scroll", window.scrollY > 0);
 });
 
-// show/hide faq answer
+// show/hide faq answer accordian
 const faqs = document.querySelectorAll(".faq");
 faqs.forEach((faq) => {
   faq.addEventListener("click", () => {

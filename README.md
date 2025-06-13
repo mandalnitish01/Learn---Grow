@@ -6,26 +6,23 @@
 
   # Home Page
   
-![Screenshot from 2023-07-17 02-27-37](https://github.com/viibhuGupta/Education-School-Website/assets/108029219/ce3e7356-3142-4a6b-ba51-2f4a0c000036)
+![alt text](images/image-1.png)(image.png)
 
 
-# I setup Google Authontication Useing Google Api  And JS
 
-
-![Screenshot from 2023-07-20 18-30-23-fotor-20230720183344](https://github.com/viibhuGupta/Education-School-Website/assets/108029219/231dae2f-f56e-454d-ae0e-e13b45557cb1)
 
 
 # Courses Page
 
-![Screenshot from 2023-07-17 02-27-50](https://github.com/viibhuGupta/Education-School-Website/assets/108029219/3716e6e3-0d10-42d9-858a-4b9a676dd37a)
+![alt text](images/image-2.png)
 
 # Notes || Previous Year Question paper Of BSEB (Bihar Board)
-![Screenshot from 2023-07-17 02-27-56](https://github.com/viibhuGupta/Education-School-Website/assets/108029219/98b38003-9b8a-45dd-ae99-9adb545768cb)
+![alt text](images/image-3.png)
 
 
 # About Page
-![Screenshot from 2023-07-17 02-28-02](https://github.com/viibhuGupta/Education-School-Website/assets/108029219/7404739d-2f23-473e-9be4-3001b67dc8f1)
+![alt text](images/image-4.png)
 
 # Contact Page 
 
-![Screenshot from 2023-07-17 02-28-07](https://github.com/viibhuGupta/Education-School-Website/assets/108029219/e8a37d61-1a52-4dbd-a30b-f014c441db88)
+![alt text](images/image-5.png)
